@@ -8,7 +8,7 @@ export class AddExpensePage extends React.Component {
     this.props.onSubmit(expense)
     this.props.history.push('/');
   };
-  reder() {
+  render() {
     return (
       <div>
         <h1>Add Expense</h1>
